@@ -68,9 +68,9 @@ fram=$( free -m | awk 'NR==2 {print $4}' )
 clear 
 echo -e "\e[33m                                                            \e[0m"
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "	              SELAMAT DATANG                      "
+echo -e "	           SELAMAT DATANG                      "
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "                     ICN NETWORK ID                      " 
+echo -e "                  ICN NETWORK ID                      " 
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "                                                                                         "
 echo -e "\e[33m Operating System     \e[0m:  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`	
